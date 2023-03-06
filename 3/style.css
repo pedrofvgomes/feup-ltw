@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Poppins:400,700');
+
+header > h1 > a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+header > h2 > a{
+    color: white;
+    text-decoration: none;
+    font-weight:400;
+}
+
+#signup > a{
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+header{
+    background-color: #046DD5;
+    font-family: 'Poppins';
+    padding: 1em;
+}
+
+#menu > ul{
+    text-align: center;
+    font-family: 'Poppins';
+    padding: 0;    
+}
+
+#menu > ul > :nth-child(n) {
+    padding: 1em;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+#menu > ul > :nth-child(1){
+    border-top: #E1493E solid 5px;
+}
+#menu > ul > :nth-child(2){
+    border-top: #8ABA56 solid 5px;
+}
+#menu > ul > :nth-child(3){
+    border-top: #5B4282 solid 5px;
+}
+#menu > ul > :nth-child(4){
+    border-top: #FF8932 solid 5px;
+}
+#menu > ul > :nth-child(5){
+    border-top: #19B6E9 solid 5px;
+}
+#menu > ul > :nth-child(6){
+    border-top: #E84C8B solid 5px;
+}
+
+#menu > ul > li > a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+#related{
+    background-color: #2A2F33;
+    color: white;
+    font-family: 'Lora';
+    padding:1em;
+    font-size: small;
+    line-height: 1.8em;
+}
+
+#related > article > h1 > a{
+    font-family: 'Poppins';
+    text-decoration: none;
+    color:white;
+
+}
