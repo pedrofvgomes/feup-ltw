@@ -14,9 +14,7 @@ header > h2 > a{
 
 #signup > a{
     color: white;
-    text-decoration: none;
     font-weight: 100;
-
 }
 
 header{
@@ -30,7 +28,8 @@ header{
     text-align: center;
     font-family: 'Poppins';
     padding: 0;   
-    margin-top: 0; 
+    margin-top: 0;
+    background-color: white; 
 }
 
 #menu > ul > :nth-child(n) {
@@ -60,7 +59,7 @@ header{
 
 #menu > ul > li > a{
     text-decoration: none;
-    color: black;
+    color:black;
     font-weight: 500;
 }
 
@@ -77,6 +76,7 @@ header{
     padding:1em;
     font-size: small;
     line-height: 1.8em;
+    margin-top: 0;
 }
 
 #related > article > h1 > a{
@@ -89,10 +89,12 @@ header{
  #signup > a:first-of-type{
     border-right: white solid 1px;
     padding-right: 0.8em;
+    text-decoration: none;
  }
 
  #signup > a:nth-of-type(2){
     padding-left: 0.8em;
+    text-decoration: none;
  }
 
  #news > article > p{
@@ -113,6 +115,9 @@ header{
 #news img{
     width: 100%;
     margin-top: 0;
+}
+#news{
+    margin: 0;
 }
 
 footer{
@@ -168,4 +173,13 @@ body > footer{
     background:none;
     filter: drop-shadow(6px 6px 2px black);
     padding: 0;
+}
+
+#menu > ul > li:hover, #menu > ul > li > a:hover{
+    color: white;
+    background-color: #2A2F33;
+}
+
+#menu > ul, #menu > ul > li{
+    margin-bottom: 0;
 }
