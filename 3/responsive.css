@@ -1,0 +1,23 @@
+@media screen and (max-width: 60em){
+    body {
+        width: 100%;
+    }
+    #related{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 30em){
+    header > h2{
+        display: none;
+    }
+    #signup{
+        text-align: left;
+    }
+
+    .hamburger, #hamburger{
+        display: block;
+        background-color: #2a2f33;
+        color:white;
+    }
+}
