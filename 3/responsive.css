@@ -43,6 +43,33 @@
     #hamburger:checked ~ .hamburger{
         background-image: url('hamburger-close.png');
     }
+    #menu > ul > li{
+        background-color: rgb(225, 225, 225);
+    }
+    #menu > ul > li:nth-child(1){
+        border-left: solid 5px #E1493E;
+        border-top: none;
+    }
+    #menu > ul > li:nth-child(2){
+        border-left: solid 5px #8ABA56;
+        border-top: none;
+    }
+    #menu > ul > li:nth-child(3){
+        border-left: solid 5px #5b4282;
+        border-top: none;
+    }
+    #menu > ul > li:nth-child(4){
+        border-left: solid 5px #ff8932;
+        border-top:none;
+    }
+    #menu > ul > li:nth-child(5){
+        border-left: solid 5px #19b6e9;
+        border-top:none;
+    }
+    #menu > ul > li:nth-child(6){
+        border-left: solid 5px #e84c8b;
+        border-top: none;
+    }
     
     #news > article:first-of-type{
         margin-top:0;
