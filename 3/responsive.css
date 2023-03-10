@@ -15,9 +15,47 @@
         text-align: left;
     }
 
-    .hamburger, #hamburger{
-        display: block;
-        background-color: #2a2f33;
-        color:white;
+    ul{
+        height: 0;
     }
+
+    .hamburger{
+        display: block;
+        height: 3em;
+        width: 100%;
+        background-color: #2a2f33;
+        background-image: url('hamburger-open.png');
+        background-size: 15px 15px;
+        background-position: left center;
+        background-position-x: 1em;
+        background-repeat: no-repeat;
+        margin-bottom: 0;
+    }
+
+    .hamburger:hover{
+        cursor: pointer;
+    }
+    #hamburger:checked ~ ul {
+        display: flex;
+        flex-direction: column;
+        height: inherit;
+    }
+    #hamburger:checked ~ .hamburger{
+        background-image: url('hamburger-close.png');
+    }
+    
+    #news > article:first-of-type{
+        margin-top:0;
+    }
+    #news > article > header, #news > article > header > h1, #news > article > header > h1 > a{
+        position: static;
+        filter: none;
+        color: black;
+        width: 100%;
+        font-size: large;
+    }
+    #news > article > header{
+        padding: 0.1em;
+    }
+
 }
