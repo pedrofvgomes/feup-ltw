@@ -1,0 +1,36 @@
+body{
+    margin: auto;
+}
+body > header{
+    grid-column: 1;
+    grid-row: 1;
+    padding: 3em;
+}
+#related{
+    display: none;
+}
+#menu{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+
+#register{
+    grid-row: 3;
+    grid-column: 1;
+    font-family: 'Poppins';
+    padding: 10em;
+}
+#register > h1{
+    text-align: center;
+}
+#register > form{
+    background-color: white;
+    padding: 3em;
+    font-size: large;
+}
+
+body > footer{
+    grid-row: 4;
+    grid-column: 1;
+}
